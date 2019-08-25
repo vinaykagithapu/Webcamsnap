@@ -12,15 +12,6 @@ Take webcam shots from target just sending a malicious link
 Usage of saycheese for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
 
 
-### Usage:
-```
-git clone https://github.com/vinaykagithapu/ShellPhish.git
-cd ShellPhish
-chmod +x shellphish.sh
-./shellphish.sh
-```
-
-
 # How it works?
 <p>The tool generates a malicious HTTPS page using Serveo or Ngrok Port Forwarding methods, and a javascript code to cam requests using MediaDevices.getUserMedia. </p>
 
@@ -30,7 +21,8 @@ chmod +x shellphish.sh
 ## Installing (Kali Linux/Termux):
 
 ```
-git clone https://github.com/thelinuxchoice/saycheese
+git clone https://github.com/vinaykagithapu/Webcamsnap.git
 cd saycheese
+chmod +x saycheese.sh
 bash saycheese.sh
 ```
